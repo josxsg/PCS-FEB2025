@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxappescolar.controlador.FXMLFormularioAlumnoController">
+   <children>
+      <ImageView fx:id="ivFoto" fitHeight="150.0" fitWidth="200.0" layoutX="286.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true" />
+      <Button layoutX="274.0" layoutY="165.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#clicSeleccionarFoto" prefHeight="30.0" prefWidth="224.0" text="Seleccionar foto">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <TextField fx:id="tfNombre" layoutX="27.0" layoutY="243.0" prefHeight="51.0" prefWidth="203.0" promptText="Nombre" />
+      <TextField fx:id="tfApellidoPaterno" layoutX="274.0" layoutY="243.0" prefHeight="51.0" prefWidth="203.0" promptText="Apellido Paterno" />
+      <TextField fx:id="tfApellidoMaterno" layoutX="523.0" layoutY="243.0" prefHeight="51.0" prefWidth="203.0" promptText="Apellido Materno" />
+      <TextField fx:id="tfMatricula" layoutX="27.0" layoutY="347.0" prefHeight="51.0" prefWidth="203.0" promptText="Matrícula" />
+      <TextField fx:id="tfEmail" layoutX="274.0" layoutY="347.0" prefHeight="51.0" prefWidth="203.0" promptText="email" />
+      <DatePicker fx:id="dpFechaNacimiento" layoutX="523.0" layoutY="347.0" prefHeight="51.0" prefWidth="203.0" promptText="Fecha de nacimiento" />
+      <ComboBox fx:id="cbFacultad" layoutX="27.0" layoutY="461.0" prefHeight="51.0" prefWidth="203.0" promptText="Facultad" />
+      <ComboBox fx:id="cbCarrera" layoutX="274.0" layoutY="461.0" prefHeight="51.0" prefWidth="203.0" promptText="Carrera" />
+      <Button layoutX="503.0" layoutY="541.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#clicGuardar" prefHeight="40.0" prefWidth="108.0" text="Guardar">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="627.0" layoutY="541.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#clicCancelar" prefHeight="40.0" prefWidth="110.0" text="Cancelar">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

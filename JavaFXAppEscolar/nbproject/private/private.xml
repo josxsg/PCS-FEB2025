@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/zenbook%20i5/Principios_de_construccion_SW/JavaFXAppEscolar/src/javafxappescolar/modelo/pojo/Usuario.java</file>
+            <file>file:/C:/Users/zenbook%20i5/Principios_de_construccion_SW/JavaFXAppEscolar/src/javafxappescolar/modelo/pojo/Carrera.java</file>
+            <file>file:/C:/Users/zenbook%20i5/Principios_de_construccion_SW/JavaFXAppEscolar/src/javafxappescolar/vista/FXMLPrincipal.fxml</file>
+            <file>file:/C:/Users/zenbook%20i5/Principios_de_construccion_SW/JavaFXAppEscolar/src/javafxappescolar/modelo/ConexionBD.java</file>
+            <file>file:/C:/Users/zenbook%20i5/Principios_de_construccion_SW/JavaFXAppEscolar/src/javafxappescolar/modelo/pojo/Facultad.java</file>
+            <file>file:/C:/Users/zenbook%20i5/Principios_de_construccion_SW/JavaFXAppEscolar/src/javafxappescolar/vista/FXMLFormularioAlumno.fxml</file>
+            <file>file:/C:/Users/zenbook%20i5/Principios_de_construccion_SW/JavaFXAppEscolar/src/javafxappescolar/modelo/dao/AlumnoDAO.java</file>
+            <file>file:/C:/Users/zenbook%20i5/Principios_de_construccion_SW/JavaFXAppEscolar/src/javafxappescolar/controlador/FXMLFormularioAlumnoController.java</file>
+            <file>file:/C:/Users/zenbook%20i5/Principios_de_construccion_SW/JavaFXAppEscolar/src/javafxappescolar/interfaz/INotificacion.java</file>
+            <file>file:/C:/Users/zenbook%20i5/Principios_de_construccion_SW/JavaFXAppEscolar/src/javafxappescolar/controlador/FXMLInicioSesionController.java</file>
+            <file>file:/C:/Users/zenbook%20i5/Principios_de_construccion_SW/JavaFXAppEscolar/src/javafxappescolar/modelo/dao/CatalogoDAO.java</file>
+            <file>file:/C:/Users/zenbook%20i5/Principios_de_construccion_SW/JavaFXAppEscolar/src/javafxappescolar/controlador/FXMLPrincipalController.java</file>
+            <file>file:/C:/Users/zenbook%20i5/Principios_de_construccion_SW/JavaFXAppEscolar/src/javafxappescolar/utilidades/Utilidad.java</file>
+            <file>file:/C:/Users/zenbook%20i5/Principios_de_construccion_SW/JavaFXAppEscolar/src/javafxappescolar/vista/FXMLAdminAlumno.fxml</file>
+            <file>file:/C:/Users/zenbook%20i5/Principios_de_construccion_SW/JavaFXAppEscolar/src/javafxappescolar/controlador/FXMLAdminAlumnoController.java</file>
+            <file>file:/C:/Users/zenbook%20i5/Principios_de_construccion_SW/JavaFXAppEscolar/src/javafxappescolar/modelo/dao/InicioSesionDAO.java</file>
+            <file>file:/C:/Users/zenbook%20i5/Principios_de_construccion_SW/JavaFXAppEscolar/src/javafxappescolar/modelo/pojo/ResultadoOperacion.java</file>
+            <file>file:/C:/Users/zenbook%20i5/Principios_de_construccion_SW/JavaFXAppEscolar/src/javafxappescolar/JavaFXAppEscolar.java</file>
+            <file>file:/C:/Users/zenbook%20i5/Principios_de_construccion_SW/JavaFXAppEscolar/src/javafxappescolar/modelo/pojo/Alumno.java</file>
+        </group>
+    </open-files>
+</project-private>

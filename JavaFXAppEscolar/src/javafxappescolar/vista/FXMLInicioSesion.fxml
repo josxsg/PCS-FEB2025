@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxappescolar.controlador.FXMLInicioSesionController">
+   <children>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="300.0" style="-fx-background-color: #000000;">
+         <children>
+            <ImageView fitHeight="370.0" fitWidth="279.0" layoutX="27.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../recurso/tree-8175062_1280.jpg" />
+               </image></ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="300.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="300.0" style="-fx-background-color: #fff;">
+         <children>
+            <Label layoutX="93.0" layoutY="28.0" text="Bienvenido(a)" textFill="#1505cd">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font></Label>
+            <Label layoutX="19.0" layoutY="73.0" text="Ingresa tu usuario y contraseña para iniciar sesion">
+               <font>
+                  <Font size="12.0" />
+               </font></Label>
+            <TextField fx:id="tfUsuario" layoutX="49.0" layoutY="118.0" prefHeight="35.0" prefWidth="206.0" promptText="Usuario" text="juanp" />
+            <PasswordField fx:id="tfPassword" layoutX="51.0" layoutY="218.0" prefHeight="35.0" prefWidth="206.0" promptText="Contraseña" text="pass123" />
+            <Button layoutX="69.0" layoutY="308.0" mnemonicParsing="false" onAction="#btnClicVerificar" text="Iniciar sesion" />
+            <Label fx:id="lbErrorUsuario" layoutX="51.0" layoutY="169.0" prefHeight="17.0" prefWidth="149.0" textFill="#e10606">
+               <font>
+                  <Font size="11.0" />
+               </font>
+            </Label>
+            <Label fx:id="lbErrorPassword" layoutX="51.0" layoutY="269.0" prefHeight="17.0" prefWidth="149.0" textFill="#e10606">
+               <font>
+                  <Font size="11.0" />
+               </font>
+            </Label>
+         </children></AnchorPane>
+   </children>
+</AnchorPane>
